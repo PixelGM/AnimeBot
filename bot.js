@@ -10,7 +10,7 @@ client.on("ready", () => {
 client.on("message", message => {
     if (message.author.bot) return;
     // If user sends message Hi then reply with Hello
-    if (message.content == "Hi") {
+    if (message.content === "Hi") {
         message.reply("Hewwo :3");
     }
 });
