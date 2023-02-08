@@ -8,10 +8,10 @@ client.on("ready", () => {
 
 
 client.on("message", message => {
-    if (message.author.bot) return;
     // If user sends message Hi then reply with Hello
-    if (message.content === "Hi") {
+    if (message.content === "hi") {
         message.reply("Hewwo :3");
+      console.log("Said Hewwo :3")
     }
 });
 
